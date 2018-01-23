@@ -7,11 +7,11 @@ def name
   @name
 end
 
-def bark
-  puts "Woof!"
+def breed=(breed)
+  @breed= breed
 end
 
-def sit 
-  puts "The Dog is sitting"
+def breed
+  @breed
 end
 end
